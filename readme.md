@@ -1,7 +1,9 @@
 Bug Tracker Console Application 🐞
+
 This document provides instructions on the project's file structure and how to compile and run the application using Apache Maven.
 
 ## Project Structure
+
 The project follows the standard Maven directory layout. Once you create the project and add the Java files, the structure will look like this:
 
 bug-tracker-console/
