@@ -9,28 +9,51 @@ The project follows the standard Maven directory layout. Once you create the pro
 bug-tracker-console/
 │
 ├── .mvn/                  <-- Maven wrapper files (optional)
+
 ├── src/
+
 │   ├── main/
+
 │   │   └── java/
+
 │   │       └── com/
+
 │   │           └── bugtracker/
+
 │   │               ├── main/         (Contains the application entry point)
+
 │   │               │   └── Main.java
+
 │   │               ├── model/        (Contains data objects and enums)
+
 │   │               │   ├── Bug.java
+
 │   │               │   ├── User.java
+
 │   │               │   └── enums/
+
 │   │               ├── service/      (Contains business logic and data handling)
+
 │   │               │   ├── BugReportingSystem.java
+
 │   │               │   └── DataStore.java
+
 │   └── test/                 <-- Directory for unit tests
+
 │
+
 ├── target/                <-- Directory for compiled code and packaged JAR (created by Maven)
+
 │
+
 ├── pom.xml                <-- The main Maven configuration file
+
 │
+
 ├── bugs.json              <-- Database file for bugs (created on first run)
+
 └── users.json             <-- Database file for users (created on first run)
+
 
 src/main/java: This is where all the application's source code (.java files) resides.
 
